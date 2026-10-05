@@ -1,0 +1,16 @@
+# Real configuration — contains passwords and API keys. Never commit.
+config.php
+iema-sso/sso-config.php
+
+# Runtime and log files
+error_log
+*.log
+iema-sso/.used/*.j
+
+# Database dumps (may contain client data)
+*.sql
+!schema.sql
+
+# Archives and uploads
+*.zip
+uploads/
